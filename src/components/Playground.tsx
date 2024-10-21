@@ -73,10 +73,10 @@ const Playground: React.FC<{ selectedProblem: any }> = ({ selectedProblem }) => 
         disabled={isLoading}
       >
         <Play className="mr-2" size={18} />
-        {isLoading ? 'Running...' : 'Run Code'}
+        {isLoading ? 'Ejecutando...' : 'Ejecutar código'}
       </button>
       <pre className="mt-4 p-4 bg-gray-800 text-white rounded-md overflow-x-auto">
-        <code>{output || 'Output will appear here'}</code>
+        <code>{output || 'El resultado aparecerá aquí'}</code>
       </pre>
     </div>
   );
