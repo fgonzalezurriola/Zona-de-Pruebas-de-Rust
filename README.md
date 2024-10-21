@@ -82,4 +82,15 @@ El proyecto está desplegado en **Vercel** para facilitar la visualización del 
 
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
+## 📧 Contacto
+
+Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contactarme:
+
+- **Email**: [fgonzalezurriola@gmail.com](mailto:fgonzalezurriola@gmail.com)
+- **LinkedIn**: [fgonzalezurriola](https://www.linkedin.com/in/fgonzalezurriola/)
+- **Telegram**: [@fgonzalezurriola](https://t.me/fgonzalezurriola)
+
+---
+
+
 ---
