@@ -1,5 +1,3 @@
-Aquí tienes un README ajustado y orientado para reclutadores técnicos, que destaca las tecnologías utilizadas en tu proyecto y presenta de manera profesional las habilidades que has demostrado:
-
 ---
 
 # Rust Playground - Área de Pruebas de Rust
@@ -89,8 +87,5 @@ Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contac
 - **Email**: [fgonzalezurriola@gmail.com](mailto:fgonzalezurriola@gmail.com)
 - **LinkedIn**: [fgonzalezurriola](https://www.linkedin.com/in/fgonzalezurriola/)
 - **Telegram**: [@fgonzalezurriola](https://t.me/fgonzalezurriola)
-
----
-
 
 ---
