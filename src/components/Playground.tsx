@@ -40,7 +40,7 @@ const Playground: React.FC<{ selectedProblem: any }> = ({ selectedProblem }) => 
         }),
       });
       const data = await response.json();
-      setOutput(data.stdout || data.stderr || 'No output');
+      setOutput(data.stdout || data.stderr || 'Rust - lang API no devolvió ninguna salida');
     } catch (error) {
       setOutput('Error: Failed to execute code');
     } finally {

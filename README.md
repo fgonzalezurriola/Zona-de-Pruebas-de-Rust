@@ -1,26 +1,13 @@
-Aquí tienes un README ajustado y orientado para reclutadores técnicos, que destaca las tecnologías utilizadas en tu proyecto y presenta de manera profesional las habilidades que has demostrado:
-
----
-
 # Rust Playground - Área de Pruebas de Rust
 
 Este proyecto es una **aplicación web interactiva** diseñada para permitir la ejecución de código **Rust** en tiempo real. Está desarrollado utilizando **Vite** para un entorno de desarrollo rápido, **React** para la interfaz de usuario, **TailwindCSS** para el diseño responsive, y un editor de código enriquecido proporcionado por **Ace Editor**. El código escrito por los usuarios se envía a la **API del Rust Playground** mediante solicitudes **POST** para su compilación y ejecución.
 
-## Características
+### Tecnologías clave:
 
-- **Desarrollo rápido con Vite**: El proyecto aprovecha **Vite** para una carga rápida y tiempos de desarrollo eficientes, facilitando una excelente experiencia de desarrollo.
-- **Ejecución de código Rust en tiempo real**: Se integra con la API del **Rust Playground** mediante solicitudes **POST**, lo que permite a los usuarios compilar y ejecutar código Rust directamente desde la aplicación.
-- **Diseño responsive con TailwindCSS**: La interfaz es completamente responsive y se adapta a diferentes tamaños de pantalla gracias a 
-- **Editor interactivo con resaltado de sintaxis**: Utiliza **Ace Editor** para proporcionar una experiencia fluida de edición de código con resaltado de sintaxis y sin corrección ortográfica.
-
-## Tecnologías Utilizadas
-
-- **Vite**: Una herramienta de compilación moderna y extremadamente rápida para proyectos web.
-- **React (TypeScript)**: Para construir la interfaz de usuario de manera declarativa y eficiente.
-- **TypeScript**: Se utiliza para aprovechar la tipificación estática, mejorar el mantenimiento del código y prevenir errores en tiempo de desarrollo.
-- **TailwindCSS**: Framework de CSS para el diseño y la estilización, permitiendo una personalización rápida y un diseño responsive.
-- **Rust Playground API**: El código Rust es enviado a esta API mediante una solicitud **POST** para su compilación y ejecución.
-- **Ace Editor**: Proporciona un editor de código en el navegador con resaltado de sintaxis, ideal para la edición de código Rust.
+- **Frontend**: React, Tailwind CSS, TypeScript
+- **Herramientas**: Git, Vite
+- **API**: Rust Playground, AJAX
+- **Editor de código**: Ace Editor
 
 ## Instalación y Uso
 
@@ -29,7 +16,7 @@ Si deseas clonar y ejecutar este proyecto localmente, sigue estos pasos:
 1. **Clona este repositorio**:
    ```bash
    git clone https://github.com/fgonzalezurriola/Zona-de-Pruebas-de-Rust
-   cd rust-playground
+   cd Zona-De-Pruebas-de-Rust
    ```
 
 2. **Instala las dependencias**:
@@ -69,8 +56,7 @@ vite.config.ts      # Configuración de Vite
 
 ## API del Rust Playground
 
-El proyecto utiliza la **API del Rust Playground** para ejecutar el código Rust proporcionado por los usuarios. Se hace una solicitud **POST** hacia la API.
-
+El proyecto utiliza la **API del Rust Lang** para ejecutar el código Rust proporcionado por los usuarios. Se hace una solicitud **POST** hacia la API.
 
 ## Despliegue en Vercel
 
@@ -89,8 +75,6 @@ Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contac
 - **Email**: [fgonzalezurriola@gmail.com](mailto:fgonzalezurriola@gmail.com)
 - **LinkedIn**: [fgonzalezurriola](https://www.linkedin.com/in/fgonzalezurriola/)
 - **Telegram**: [@fgonzalezurriola](https://t.me/fgonzalezurriola)
-
----
-
+- **Portafolio**: [fgonzalezurriola.github.io](https://fgonzalezurriola.github.io)
 
 ---
