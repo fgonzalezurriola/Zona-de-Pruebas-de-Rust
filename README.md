@@ -2,29 +2,32 @@
 
 Este proyecto es una **aplicación web interactiva** diseñada para permitir la ejecución de código **Rust** en tiempo real. Está desarrollado utilizando **Vite** para un entorno de desarrollo rápido, **React** para la interfaz de usuario, **TailwindCSS** para el diseño responsive, y un editor de código enriquecido proporcionado por **Ace Editor**. El código escrito por los usuarios se envía a la **API del Rust Playground** mediante solicitudes **POST** para su compilación y ejecución.
 
-### Tecnologías clave:
+## Tecnologías
 
 - **Frontend**: React, Tailwind CSS, TypeScript
 - **Herramientas**: Git, Vite
-- **API**: Rust Playground, AJAX
-- **Editor de código**: Ace Editor
+- **API**: Rust-Lang API
+- **Dependencia de Editor de código**: Ace Editor (con resaltado de sintaxis Rust)
 
 ## Instalación y Uso
 
 Si deseas clonar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. **Clona este repositorio**:
+
    ```bash
    git clone https://github.com/fgonzalezurriola/Zona-de-Pruebas-de-Rust
    cd Zona-De-Pruebas-de-Rust
    ```
 
 2. **Instala las dependencias**:
+
    ```bash
    npm install
    ```
 
 3. **Inicia la aplicación**:
+
    ```bash
    npm run dev
    ```
@@ -40,7 +43,7 @@ Si deseas clonar y ejecutar este proyecto localmente, sigue estos pasos:
 
 ## Estructura del Proyecto
 
-```
+```markdown
 /src
    /components
        App.tsx      # Componente principal de la aplicación
@@ -68,7 +71,7 @@ El proyecto está desplegado en **Vercel** para facilitar la visualización del 
 
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-## 📧 Contacto
+## Contacto
 
 Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contactarme:
 
@@ -76,5 +79,3 @@ Si estás interesado en saber más sobre mí o mis proyectos, no dudes en contac
 - **LinkedIn**: [fgonzalezurriola](https://www.linkedin.com/in/fgonzalezurriola/)
 - **Telegram**: [@fgonzalezurriola](https://t.me/fgonzalezurriola)
 - **Portafolio**: [fgonzalezurriola.github.io](https://fgonzalezurriola.github.io)
-
----

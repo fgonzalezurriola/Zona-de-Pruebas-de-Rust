@@ -25,7 +25,7 @@ const SideMenu: React.FC<{ onSelectProblem: (problem: any) => void }> = ({ onSel
       >
         {isExpanded ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
       </button>
-      <nav>
+      <nav className="overflow-hidden">
         {problems.map((problem) => (
           <button
             key={problem.id}
