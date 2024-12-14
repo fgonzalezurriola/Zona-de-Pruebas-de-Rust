@@ -22,12 +22,15 @@ const SideMenu: React.FC<{ onSelectProblem: (problem: any) => void }> = ({ onSel
       ${isExpanded ? 'w-64' : 'w-16'}  
       transition-all duration-300`}
       >
+      {/* Expand button */}
       <button
         className="w-full p-4 flex justify-end items-center"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         {isExpanded ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
       </button>
+
+      {/* Problem List */}
       <nav className="overflow-hidden">
         {problems.map((problem) => (
           <button
