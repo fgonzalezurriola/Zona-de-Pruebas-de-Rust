@@ -18,12 +18,12 @@ const SideMenu: React.FC<{ onSelectProblem: (problem: any) => void }> = ({ onSel
   const [isExpanded, setIsExpanded] = useState(true);
 
   return (
-    <div className={`bg-gray-800 overflow-y-auto text-white sm:text-xs md:text-xl
-      ${isExpanded ? 'sm:w-16 md:w-72' : 'w-12'}  
-      transition-all duration-300
-                    `}>
+    <div className={`bg-gray-800 overflow-y-auto text-white
+      ${isExpanded ? 'w-64' : 'w-16'}  
+      transition-all duration-300`}
+      >
       <button
-        className="w-full sm:p-2 md:p-4 flex justify-end items-center"
+        className="w-full p-4 flex justify-end items-center"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         {isExpanded ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
@@ -32,7 +32,7 @@ const SideMenu: React.FC<{ onSelectProblem: (problem: any) => void }> = ({ onSel
         {problems.map((problem) => (
           <button
             key={problem.id}
-            className="w-full text-left sm:p-2 md:p-4 hover:bg-gray-700 transition-colors duration-100 whitespace-nowrap"
+            className="w-full text-left p-4 hover:bg-gray-700 transition-colors duration-100 whitespace-nowrap"
             onClick={() => onSelectProblem(problem)}
           >
             {isExpanded ? `P${problem.id}: ${problem.title}` : `P${problem.id}`}
