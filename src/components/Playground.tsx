@@ -8,7 +8,7 @@ import 'ace-builds/src-noconflict/ext-language_tools';
 
 const defaultCode = `// Escribe tu código Rust aquí
 fn main() {
-    println!("Hello, Rust!");
+  println!("Hello, Rust!");
 }`;
 
 const Playground: React.FC<{ selectedProblem: any }> = ({ selectedProblem }) => {
@@ -49,7 +49,7 @@ const Playground: React.FC<{ selectedProblem: any }> = ({ selectedProblem }) => 
   };
 
   return (
-    <div className="w-full max-w-3xl">
+    <div className="w-full max-w-5xl mx-auto">
       <AceEditor
         mode="rust"
         theme="monokai"
@@ -63,12 +63,13 @@ const Playground: React.FC<{ selectedProblem: any }> = ({ selectedProblem }) => 
           enableSnippets: true,
           showLineNumbers: true,
           tabSize: 2,
+          fontSize: 18,
         }}
-        style={{ width: '100%', height: '300px' }}
+        style={{ width: '100%', height: '500px' }}
         className="rounded-md shadow-sm"
       />
       <button
-        className="mt-4 bg-orange-600 text-white px-6 py-2 rounded-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50 flex items-center justify-center"
+        className="mt-4 bg-orange-600 text-white px-6 py-2 rounded-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-50 flex items-center justify-center w-full sm:w-auto"
         onClick={runCode}
         disabled={isLoading}
       >
